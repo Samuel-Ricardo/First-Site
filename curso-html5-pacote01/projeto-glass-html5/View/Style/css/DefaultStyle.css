@@ -10,3 +10,41 @@ p{
     text-align: justify;
     text-indent: 50px;
 }
+
+
+/*Style for Image Whit Legend*/
+
+figure.image-whith-legend {
+
+    border: 8px solid whitesmoke;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+}
+
+figure.image-whith-legend img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+figure.image-whith-legend figcaption{
+
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+/*dispara açao ao passar o mause por cima do figcaption*/
+
+figure.image-whith-legend:hover figcaption{
+
+    opacity: 1;
+}
