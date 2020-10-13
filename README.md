@@ -1,7 +1,11 @@
 # First-Site
-Curso de Web cujo Objetivo é criar o primeiro site completo do 0 usando: HTML, CSS e JavaScript
+Web development course, whose objective is to create the first complete website of 0, using: HTML, CSS and JavaScript
 
-- Professor: Gustavo Guanabara
+- Teacher: Gustavo Guanabara
 
-- Instituiçao: Curso em Video
+- Institution: Curso em Video
 
+- Course:
+
+   - Youtube: https://www.youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o
+   - Official website: https://www.cursoemvideo.com/course/html5/
