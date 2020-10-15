@@ -71,6 +71,7 @@ nav#menu li{
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
 }
 
 nav#menu li:hover {
@@ -82,4 +83,16 @@ nav#menu h1{
 
     display: none; /*esconde*/
     
+}
+
+nav#menu a { /*link*/
+
+    color: black;
+    text-decoration: none;
+
+}
+
+nav#menu a:hover{
+
+    color: white;
 }
