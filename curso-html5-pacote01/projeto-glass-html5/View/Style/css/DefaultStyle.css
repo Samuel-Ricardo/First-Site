@@ -216,7 +216,7 @@ header#article-header h3{
 
 article#main-news h2{
 
-    font-size: 12pt;
+    font-size: 13pt;
     color: #606060;
     background-color: #dddddd;
     padding: 5px 0px 5px 10px;
@@ -231,6 +231,21 @@ aside#side {
     display: block;
     width: 350px;
     float: right;
+}
+
+aside#side h1{
+
+    font-family: "Logo-Font", Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+}
+
+aside#side h2{
+
+    background-color: #606060;
+    font-size: 13pt;
+    color: white;
+    padding: 5px;
 }
 
 /*//////////////// Footer ////////////////*/
