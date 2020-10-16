@@ -16,6 +16,11 @@ body {
     color: rgba(0,0,0,1);
 }
 
+.right {
+
+    text-align: right;
+}
+
 /*///////////////////HEADER///////////////////*/
 
 header#header img#icone{
@@ -176,6 +181,7 @@ header#article-header h1{
     font-family: "Logo-Font", sans-serif;
     font-size: 20pt;
     color: #606060;
+    margin-top: 0px;
 }
 
 
@@ -183,12 +189,15 @@ header#article-header h2{
     
     font-size: 13pt;
     color: #cecece;
-    background-color: #ffffff;
+    background-color: white;
     margin: 0px;
 }
 
 
 header#article-header h3{
+
+    font-size: 12px;
+    color: #606060;
     
 }
 
