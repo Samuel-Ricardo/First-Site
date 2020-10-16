@@ -157,3 +157,41 @@ nav#menu a:hover{
 
     color: white;
 }
+
+/*//////////////// Section ////////////////*/
+
+section#body {
+
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+/*//////////////// Aside ////////////////*/
+
+aside#side {
+
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+/*//////////////// Aside ////////////////*/
+
+footer#footer {
+
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#footer p{
+
+    text-align: center;
+}
