@@ -12,6 +12,7 @@
 
 body {
 
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #dddddd;
     color: rgba(0,0,0,1);
 }
@@ -19,6 +20,16 @@ body {
 .right {
 
     text-align: right;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
 }
 
 /*///////////////////HEADER///////////////////*/
@@ -185,7 +196,7 @@ header#article-header h1{
 }
 
 
-header#article-header h2{
+header#article-header h2#h2{
     
     font-size: 13pt;
     color: #cecece;
