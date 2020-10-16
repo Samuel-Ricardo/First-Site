@@ -220,10 +220,27 @@ table#specification-table td {
     vertical-align: middle;
 }
 
+table#specification-table caption{
+
+    color:  #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#specification-table caption span{
+
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
 table#specification-table td.left-column{
 
     color: white;
     background-color: #606060;
+    text-align: right;
     vertical-align: top;
     font-weight: bold;
 }
@@ -231,11 +248,4 @@ table#specification-table td.left-column{
 table#specification-table tb.rigth-column{
 
     background-color: #cecece;
-}
-
-table#specification-table caption{
-
-    color:  #888888;
-    font-size: 13pt;
-    font-weight: bolder;
 }
