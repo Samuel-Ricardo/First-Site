@@ -183,7 +183,7 @@ aside#side {
     float: right;
 }
 
-/*//////////////// Aside ////////////////*/
+/*//////////////// Footer ////////////////*/
 
 footer#footer {
 
@@ -201,4 +201,20 @@ footer#footer a{
 footer#footer p{
 
     text-align: center;
+}
+
+/*//////////////// Table ////////////////*/
+
+table#specification-table {
+
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#specification-table td {
+
+    border: 1px solid #606060;
+    padding: 10px;
 }
