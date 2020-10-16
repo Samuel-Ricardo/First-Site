@@ -19,14 +19,26 @@ header#header {
 
     border-bottom: 1px #606060 solid;
     height: 150px;
-    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/glass-logo-peq.jpg") no-repeat 0px 100px;
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
-head#header h1{
+header#header h1{
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 30pt;
     color: #606060;
+    text-shadow: 1px 1px 1.2px rgba(0,0,0,0.5);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#header h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    padding: 0px;
+    margin-top: 0px;
 }
 
 /*////////////////////////////////////////////*/
