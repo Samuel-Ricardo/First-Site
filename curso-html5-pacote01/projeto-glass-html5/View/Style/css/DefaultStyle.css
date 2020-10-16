@@ -6,6 +6,20 @@ body {
     color: rgba(0,0,0,1);
 }
 
+header#header img#icone{
+
+    position: absolute;
+    left: 780px;
+    top: 40px;
+}
+
+header#header {
+
+    border-bottom: 1px #606060 solid;
+    
+
+}
+
 div#interface {
 
     background-color: white;
