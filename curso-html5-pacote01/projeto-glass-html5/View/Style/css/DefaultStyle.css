@@ -217,4 +217,25 @@ table#specification-table td {
 
     border: 1px solid #606060;
     padding: 10px;
+    vertical-align: middle;
+}
+
+table#specification-table td.left-column{
+
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#specification-table tb.rigth-column{
+
+    background-color: #cecece;
+}
+
+table#specification-table caption{
+
+    color:  #888888;
+    font-size: 13pt;
+    font-weight: bolder;
 }
