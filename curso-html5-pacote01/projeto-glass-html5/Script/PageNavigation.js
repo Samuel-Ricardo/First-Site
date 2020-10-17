@@ -1,3 +1,6 @@
+
+var defaultIcon 
+
 function changeIcon(icon){
 
     image = document.getElementById("icon");
@@ -5,9 +8,14 @@ function changeIcon(icon){
     image.src = icon
 }
 
-function setDefaultIcon(){
+function changeIconToDefault(){
 
     image = document.getElementById("icon");
 
-    image.src = "/curso-html5-pacote01/projeto-glass-html5/View/Images/glass-oculos-preto-peq.png"
+    image.src = defaultIcon
+}
+
+function setDefaultIcon(icon){
+
+    defaultIcon = icon
 }
