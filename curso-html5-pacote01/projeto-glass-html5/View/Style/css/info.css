@@ -25,7 +25,9 @@ article {
     margin-bottom: 800px;
 }
 
-.right-img{
+img.right-img{
 
-    
+    display: block;
+    float: right;
+    margin-left: 5px;
 }
