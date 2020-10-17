@@ -1,5 +1,5 @@
 
-var defaultIcon 
+var defaultPageIcon 
 
 function changeIcon(icon){
 
@@ -12,10 +12,10 @@ function changeIconToDefault(){
 
     image = document.getElementById("icon");
 
-    image.src = defaultIcon
+    image.src = defaultPageIcon
 }
 
-function setDefaultIcon(icon){
+function setDefaultPageIcon(icon){
 
-    defaultIcon = icon
+    defaultPageIcon = icon
 }
