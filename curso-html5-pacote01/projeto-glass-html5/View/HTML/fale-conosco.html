@@ -62,15 +62,15 @@
                 <fieldset id="user">
                     <legend>Identificação do Usuário</legend>
 
-                    <p>Nome: <input type="text"> </p>
-                    <p>Senha:</p>
-                    <p>E-mail:</p>
+                    <p>Nome: <input type="text" name="txtName" id="name" size="20" maxlength="30" placeholder="Nome Completo"> </p>
+                    <p>Senha: <input type="password" name="pasName" id="password" size="11" maxlength="10" placeholder="10 digitos"> </p>
+                    <p>E-mail: <input type="email" name="txtEmail" id="email"></p>
 
                     <fieldset id="gender">
                         <legend>Sexo:</legend>
 
-                        <p> Masculino</p>
-                        <p> Feminino</p>
+                        <input type="radio" name="radio" id="man"> <label for="man">Masculino</label> <br/>
+                        <input type="radio" name="radio" id="girl"> <label for="girl">Feminino</label>
 
                     </fieldset>
 
