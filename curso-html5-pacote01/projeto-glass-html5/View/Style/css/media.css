@@ -7,3 +7,13 @@ div#tv-radio {
     margin: auto;
     background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/radio-tv.png") no-repeat;
 }
+
+audio#music {
+
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 490px;
+    width: 300px;
+}
+
