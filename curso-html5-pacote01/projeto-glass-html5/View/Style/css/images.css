@@ -44,12 +44,24 @@ ul#photo-album li#photo01{
     background-color: #ffffff;
 }
 
+ul#photo-album li#photo01:hover{
+
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
 ul#photo-album li#photo02{
 
     background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-02.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
+}
+
+ul#photo-album li#photo02:hover{
+
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
 
 ul#photo-album li#photo03{
@@ -60,12 +72,24 @@ ul#photo-album li#photo03{
     background-color: #ffffff;
 }
 
+ul#photo-album li#photo03:hover{
+
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
 ul#photo-album li#photo04{
 
     background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-04.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
+}
+
+ul#photo-album li#photo04:hover{
+
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
 
 ul#photo-album li#photo05{
@@ -76,10 +100,22 @@ ul#photo-album li#photo05{
     background-color: #ffffff;
 }
 
+ul#photo-album li#photo05:hover{
+
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
 ul#photo-album li#photo06{
 
     background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-06.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
+}
+
+ul#photo-album li#photo06:hover{
+
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
