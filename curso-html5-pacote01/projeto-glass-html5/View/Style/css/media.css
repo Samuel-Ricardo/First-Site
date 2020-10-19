@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 div#tv-radio {
-
-    whidth: 900px;
-    heigth: 580px;
+ 
+    width: 900px;
+    height: 580px;
     margin: auto;
-    barckground: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/radio-tv.png") no-repeat;
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/radio-tv.png") no-repeat;
 }
