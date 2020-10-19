@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+ul#photo-album {
+
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#photo-album li{
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4); 
+}
+
+ul#photo-album li span{
+
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, .4);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#photo-album li:hover span{
+
+    opacity: 1;
+}
+
+ul#photo-album li#photo01{
+
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-01.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#photo-album li#photo02{
+
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-02.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#photo-album li#photo03{
+
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-03.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#photo-album li#photo04{
+
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-04.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#photo-album li#photo05{
+
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-05.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#photo-album li#photo06{
+
+    background: url("/curso-html5-pacote01/projeto-glass-html5/View/Images/galeria-06.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
