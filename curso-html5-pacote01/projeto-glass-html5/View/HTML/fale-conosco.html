@@ -105,13 +105,40 @@
 
                         </select> 
                     </p>
-                    Cidade:
+
+                    <p>Cidade: <input type="text" name="txtCity" id="city" list="citys"> </p>
+
+                    <datalist id="citys">
+                        
+                        <optgroup label="Regiao Nordeste">
+
+                            <option value="PE" selected>Pernambuco</option>
+                            <option value="BA">Bahia</option>
+
+                        </optgroup>
+
+                        <optgroup label="Regiao Sudeste">
+
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">Sao Paulo</option>
+
+                        </optgroup>
+
+                    </datalist>
 
                 </fieldset>
 
                 <fieldset id="message">
-                    <legend></legend>
+                    <legend>Mensagem do Usuário</legend>
     
+                    <p>Grau de Urgência: 
+                       Min <input type="range" name="range" id="rPriority" min="0" max="10" step="1"> Máx
+                     </p>
+
+                     <p>
+                        Mensagem: <textarea name="txtArea" id="message" cols="25" rows="5" placeholder="Deixe sua mensagem"></textarea>
+                        
+                     </p>
                 </fieldset>
 
                 <fieldset id="order">
@@ -121,9 +148,8 @@
 
             </form>
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
+    
+    
 
 Quero um Google Glass
     Gostaria de adquirir um Google Glass quando disponível
