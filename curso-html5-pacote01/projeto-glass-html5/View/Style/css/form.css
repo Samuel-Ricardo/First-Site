@@ -1,2 +1,26 @@
 @charset "UTF-8";
 
+form {
+
+    margin: auto;
+}
+
+input, textarea {
+
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+}
+
+input:hover, textarea:hover{
+
+    background-color: #dddddd;
+}
+
+legend {
+
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
